@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPLORE INDIA!</title>
+    <link rel="stylesheet" href="trip.css/trip.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <h1><i>TOP 10 TRAVEL DESTINATIONS IN INDIA</i></h1>
+    <ul>
+        <li><a href="home">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+              <!--
+        <ul>
+            <li>TAJ MAHAL</LI>
+                <LI>JAPIR<LI>
+                    <K=LI>KERA</LI>
+        </ul>
+              -->  <li><a href="#Destinations">Destinations</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to Travel India!</h2>
+            <form id="contact-form"></form>
+            <p>Discover the incredible beauty and diversity of India through its top travel destinations. From historical landmarks to serene landscapes, India offers a unique experience for every traveler.</p>
+            
+            <h3>Explore Indian Culture</h3>
+            <p>India is a land of rich culture and traditions. With a history that spans thousands of years, it is home to numerous languages, religions, festivals, and cuisines. Whether you're exploring the colorful streets of Jaipur or the spiritual vibes of Varanasi, each region offers something unique.</p>
+            
+            <h3>Popular Activities</h3>
+            <ul>
+                <li><strong>Adventure Sports:</strong> From trekking in the Himalayas to water sports in Goa, adventure awaits!</li>
+                <li><strong>Culinary Experiences:</strong> Indulge in local delicacies and participate in cooking classes to learn traditional recipes.</li>
+                <li><strong>Cultural Festivals:</strong> Experience vibrant festivals like Diwali, Holi, and Durga Puja to immerse yourself in local traditions.</li>
+            </ul>
+            <h3>Travel Tips</h3>
+            <p>Here are a few tips to enhance your travel experience in India:</p>
+            <ul>
+                <li>Learn a few basic phrases in Hindi to connect with locals.</li>
+                <li>Dress modestly, especially when visiting religious sites.</li>
+                <li>Stay hydrated and try to drink bottled water to avoid stomach issues.</li>
+            </ul>
+
+            <h3>Featured Destinations</h3>
+            <p>Check out our top 10 destinations that showcase the beauty and diversity of India!</p>
+        </section>
+        <section class="destination">
+            <h2>1. Taj Mahal, Agra</h2>
+            <img src="taj.jpeg" alt="Taj Mahal">
+            <p>The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra.</p>
+            <button class="read-more-btn" onclick="toggleTajMore()">Read More</button>
+    
+    <div id="taj-more-info" style="display: none;">
+        <h3>Key Highlights:</h3>
+        <ul>
+            <li><strong>Architectural Marvel:</strong> Renowned for its stunning white marble façade and intricate inlay work, the Taj Mahal is a blend of Persian, Islamic, and Indian architectural styles.</li>
+            <li><strong>Visiting Hours:</strong> Open from sunrise to sunset, best enjoyed at dawn when the marble reflects the morning light.</li>
+            <li><strong>Best Time to Visit:</strong> October to March offers cooler weather, making it ideal for exploration.</li>
+            <li><strong>Photography:</strong> Capture stunning photos from various angles, especially from the reflecting pool.</li>
+            <li><strong>Local Culture:</strong> Explore Agra’s rich Mughal history and local cuisine, including famous dishes like Petha.</li>
+            <li><strong>Nearby Attractions:</strong> Don't miss the Agra Fort and Fatehpur Sikri, both rich in history and beauty.</li>
+        </ul>
+        
+        <h3>Tips for Travelers:</h3>
+        <ul>
+            <li><strong>Dress Code:</strong> Modest clothing is recommended due to the cultural significance of the site.</li>
+            <li><strong>Tickets:</strong> Purchase tickets in advance, especially during peak tourist seasons.</li>
+            <li><strong>Guided Tours:</strong> Hiring a local guide can enhance your understanding of the monument's history.</li>
+        </ul>
+    </div>
+        </section>
+        <section class="destination">
+            <h2>2. Jaipur, Rajasthan</h2>
+            <img src="Jaipur.webp" alt="Jaipur">
+            <p>Known as the Pink City, Jaipur is famous for its royal palaces, forts, and vibrant culture.</p>
+            <button class="read-more-btn" onclick="toggleJaipurMore()">Read More</button>
+    
+    <div id="jaipur-more-info" style="display: none;">
+        <h3>Key Highlights:</h3>
+        <ul>
+            <li><strong>Amber Fort:</strong> A magnificent hilltop fort known for its artistic Hindu architecture and stunning views of the surrounding landscape.</li>
+            <li><strong>City Palace:</strong> A royal residence that showcases a blend of Rajasthani and Mughal architecture, featuring museums and courtyards.</li>
+            <li><strong>Hawa Mahal:</strong> Also known as the "Palace of Winds," this iconic structure features intricate latticework and numerous windows.</li>
+            <li><strong>Jantar Mantar:</strong> An astronomical observatory built in the 18th century, home to the world's largest stone sundial.</li>
+            <li><strong>Local Markets:</strong> Explore vibrant bazaars like Johari Bazaar and Bapu Bazaar for traditional handicrafts, jewelry, and textiles.</li>
+        </ul>
+        
+        <h3>Tips for Travelers:</h3>
+        <ul>
+            <li><strong>Best Time to Visit:</strong> October to March is ideal for pleasant weather and outdoor activities.</li>
+            <li><strong>Transportation:</strong> Use local rickshaws or hire a taxi for easy navigation through the city.</li>
+            <li><strong>Dress Code:</strong> Lightweight and comfortable clothing is recommended, especially during the day.</li>
+        </ul>
+    </div>
+        </section>
+        <section class="destination">
+            <h2>3. Goa</h2>
+            <img src="goa.jpg" alt="Goa">
+            <p>Goa is known for its stunning beaches, Portuguese heritage, and lively nightlife.</p>
+            <button class="read-more-btn" onclick="toggleGoaMore()">Read More</button>
+    
+    <div id="goa-more-info" style="display: none;">
+        <h3>Key Highlights:</h3>
+        <ul>
+            <li><strong>Beaches:</strong> Relax on beautiful beaches like Anjuna, Baga, and Palolem, each offering a unique vibe and activities.</li>
+            <li><strong>Water Sports:</strong> Enjoy thrilling water sports like parasailing, jet skiing, and scuba diving in the Arabian Sea.</li>
+            <li><strong>Historic Churches:</strong> Visit UNESCO World Heritage Sites like the Basilica of Bom Jesus and Se Cathedral, showcasing stunning colonial architecture.</li>
+            <li><strong>Goan Cuisine:</strong> Savor delicious local dishes such as fish curry, vindaloo, and bebinca (a traditional dessert).</li>
+            <li><strong>Nightlife:</strong> Experience Goa’s lively nightlife with beach parties, nightclubs, and beach shacks that come alive after sunset.</li>
+        </ul>
+        
+        <h3>Tips for Travelers:</h3>
+        <ul>
+            <li><strong>Best Time to Visit:</strong> November to February is ideal for pleasant weather and festive celebrations.</li>
+            <li><strong>Transportation:</strong> Renting a scooter or bike is a popular way to explore Goa at your own pace.</li>
+            <li><strong>Dress Code:</strong> Light and comfortable clothing is recommended, along with sunscreen for beach days.</li>
+        </ul>
+    </div>
+        </section>
+        <section class="destination">
+            <h2>4. Kerala Backwaters</h2>
+            <img src="kerala.webp" alt="Kerala Backwaters">
+            <p>The backwaters of Kerala are a network of lagoons, lakes, and canals that offer a unique ecosystem and breathtaking views.</p>
+            <button class="read-more-btn" onclick="toggleKeralaMore()">Read More</button>
+    
+            <div id="kerala-more-info" style="display: none;">
+                <h3>Key Highlights:</h3>
+                <ul>
+                    <li><strong>Houseboat Cruises:</strong> Experience a relaxing cruise on a traditional houseboat, enjoying the scenic beauty and local wildlife.</li>
+                    <li><strong>Vembanad Lake:</strong> The largest lake in Kerala, perfect for bird watching and picturesque views, especially during sunset.</li>
+                    <li><strong>Local Cuisine:</strong> Savor delicious Kerala dishes like fish curry, puttu, and appam, often prepared with fresh local ingredients.</li>
+                    <li><strong>Cultural Experiences:</strong> Engage with local communities and enjoy traditional dance performances like Kathakali and Mohiniyattam.</li>
+                    <li><strong>Ayurvedic Treatments:</strong> Discover rejuvenating Ayurvedic therapies offered by resorts along the backwaters, focusing on holistic wellness.</li>
+                </ul>
+                
+                <h3>Tips for Travelers:</h3>
+                <ul>
+                    <li><strong>Best Time to Visit:</strong> November to February is ideal for pleasant weather and outdoor activities.</li>
+                    <li><strong>Transportation:</strong> Renting a bicycle or taking a local ferry can be a great way to explore the area.</li>
+                    <li><strong>Dress Code:</strong> Light and comfortable clothing is recommended, along with mosquito repellent for evening outings.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="destination">
+            <h2>5. Varanasi, Uttar Pradesh</h2>
+            <img src="vara.jpg" alt="Varanasi">
+            <p>One of the oldest living cities in the world, Varanasi is known for its ghats along the Ganges River.</p>
+            
+            <button class="read-more-btn" onclick="toggleVaranasiMore()">Read More</button>
+    
+            <div id="varanasi-more-info" style="display: none;">
+                <h3>Key Highlights:</h3>
+                <ul>
+                    <li><strong>Ganga Aarti:</strong> Witness the mesmerizing evening Aarti ceremony at Dashashwamedh Ghat, where devotees offer prayers to the Ganges.</li>
+                    <li><strong>Historic Ghats:</strong> Explore famous ghats like Manikarnika and Assi, where rituals and ceremonies take place along the river.</li>
+                    <li><strong>Temples:</strong> Visit the Kashi Vishwanath Temple, one of the holiest Shiva temples, and other historic shrines in the city.</li>
+                    <li><strong>Boat Rides:</strong> Take a boat ride on the Ganges at sunrise to experience the serenity and spiritual ambiance of the city.</li>
+                    <li><strong>Cultural Heritage:</strong> Enjoy classical music and dance performances that reflect the rich artistic traditions of Varanasi.</li>
+                </ul>
+                
+                <h3>Tips for Travelers:</h3>
+                <ul>
+                    <li><strong>Best Time to Visit:</strong> October to March offers cooler weather, making it ideal for exploration.</li>
+                    <li><strong>Transportation:</strong> Auto-rickshaws and cycle rickshaws are convenient for getting around the narrow lanes of the city.</li>
+                    <li><strong>Dress Code:</strong> Modest clothing is recommended, especially when visiting temples and ghats.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="destination">
+            <h2>6. Ladakh</h2>
+            <img src="ladakh.jpg" alt="Ladakh">
+            <p>Ladakh is known for its stunning landscapes, Buddhist monasteries, and adventure activities.</p>
+            <button class="read-more-btn" onclick="toggleReadMore()">Read More</button>
+    
+    <div id="more-info" style="display: none;">
+
+            <h3>Main Attractions:</h3>
+    <ul>
+        <li><strong>Pangong Lake:</strong> Famous for its breathtaking views and changing colors, this high-altitude lake is a must-visit.</li>
+        <li><strong>Nubra Valley:</strong> Known for its sand dunes and Bactrian camels, Nubra Valley offers beautiful landscapes and unique experiences.</li>
+        <li><strong>Hemis Monastery:</strong> One of the largest and richest monasteries in Ladakh, famous for its annual festival and beautiful murals.</li>
+        <li><strong>Thiksey Monastery:</strong> A striking structure resembling the Potala Palace of Lhasa, offering panoramic views of the Indus Valley.</li>
+        <li><strong>Trekking:</strong> Explore various trails, including the Markha Valley trek.</li>
+        <li><strong>River Rafting:</strong> Experience thrilling white-water rafting on the Zanskar River.</li>
+        <li><strong>Local Festivals:</strong> Visit during festivals like the Hemis Festival to experience vibrant traditions.</li>
+        <li><strong>Leh Palace:</strong> A former royal palace offering stunning views of Leh and showcasing traditional Ladakhi architecture.</li>
+        <li><strong>Shey Palace:</strong> Features a large Buddha statue and beautiful views.</li>
+    </ul>
+    
+    <h3>Tips for Travelers:</h3>
+    <ul>
+        <li>Acclimatization: Spend a few days acclimatizing to the high altitude.</li>
+        <li>Best Time to Visit: May to September is ideal for mild weather.</li>
+        <li>Transportation: Rent a bike or hire a taxi to explore the region.</li>
+        </section>
+        <section class="destination">
+            <h2>7. Udaipur, Rajasthan</h2>
+            <img src="udaipur.webp" alt="Udaipur">
+            <p>Often called the City of Lakes, Udaipur is famous for its beautiful palaces and romantic lakes.</p>
+            <button class="read-more-btn" onclick="toggleUdaipurMore()">Read More</button>
+    
+    <div id="udaipur-more-info" style="display: none;">
+        <h3>Key Highlights:</h3>
+        <ul>
+            <li><strong>City Palace:</strong> A stunning architectural marvel overlooking Lake Pichola, featuring museums and beautiful courtyards.</li>
+            <li><strong>Lake Pichola:</strong> Enjoy boat rides on this picturesque lake, with breathtaking views of the surrounding hills and palaces.</li>
+            <li><strong>Jag Mandir:</strong> Visit this beautiful island palace, known for its intricate architecture and peaceful gardens.</li>
+            <li><strong>Saheliyon-ki-Bari:</strong> Explore the lush gardens adorned with fountains, lotus pools, and marble elephants, built for royal ladies.</li>
+            <li><strong>Cultural Experiences:</strong> Attend traditional dance performances and local festivals that celebrate the rich heritage of Udaipur.</li>
+        </ul>
+        
+        <h3>Tips for Travelers:</h3>
+        <ul>
+            <li><strong>Best Time to Visit:</strong> September to March offers pleasant weather for sightseeing and outdoor activities.</li>
+            <li><strong>Transportation:</strong> Auto-rickshaws and taxis are available for getting around the city, and cycling is also a popular option.</li>
+            <li><strong>Dress Code:</strong> Light and comfortable clothing is recommended, especially when exploring historical sites and gardens.</li>
+        </ul>
+        </div>
+        </section>
+        <section class="destination">
+            <h2>8. Hampi, Karnataka</h2>
+            <img src="hampi.jpg" alt="Hampi">
+            <p>Hampi is a UNESCO World Heritage Site known for its ancient temples and ruins.</p>
+            <button class="read-more-btn" onclick="toggleHampiMore()">Read More</button>
+    
+    <div id="hampi-more-info" style="display: none;">
+        <h3>Key Highlights:</h3>
+        <ul>
+            <li><strong>Virupaksha Temple:</strong> This ancient temple is dedicated to Lord Shiva and showcases stunning Dravidian architecture.</li>
+            <li><strong>Vijaya Vittala Temple:</strong> Famous for its iconic stone chariot and musical pillars, this temple complex is a must-visit.</li>
+            <li><strong>Royal Enclosure:</strong> Explore the remnants of the royal palace and other structures that reflect the grandeur of the Vijayanagara Empire.</li>
+            <li><strong>Hampi Bazaar:</strong> A vibrant marketplace that once served as a bustling hub during the empire, now offering local handicrafts and souvenirs.</li>
+            <li><strong>Landscape:</strong> Enjoy the unique boulder-strewn landscape and take in breathtaking views from hilltops like Matanga Hill.</li>
+        </ul>
+        
+        <h3>Tips for Travelers:</h3>
+        <ul>
+            <li><strong>Best Time to Visit:</strong> October to February offers pleasant weather for exploring the ruins and landscapes.</li>
+            <li><strong>Transportation:</strong> Rent a bicycle or scooter to easily navigate the expansive area of Hampi.</li>
+            <li><strong>Dress Code:</strong> Comfortable clothing and sturdy footwear are recommended for exploring the rocky terrain.</li>
+        </ul>
+    </div>
+        </section>
+        <section class="destination">
+            <h2>9. Rishikesh, Uttarakhand</h2>
+            <img src="rishikesh.jpg" alt="Rishikesh">
+            <p>Rishikesh is known as the 'Yoga Capital of the World' and is located on the banks of the Ganges River.</p>
+            <button class="read-more-btn" onclick="toggleRishikeshMore()">Read More</button>
+    
+    <div id="rishikesh-more-info" style="display: none;">
+        <h3>Key Highlights:</h3>
+        <ul>
+            <li><strong>Yoga and Meditation:</strong> Participate in yoga and meditation classes at various ashrams, including the famous Parmarth Niketan.</li>
+            <li><strong>River Rafting:</strong> Experience thrilling white-water rafting in the Ganges, attracting adventure enthusiasts from around the world.</li>
+            <li><strong>Laxman Jhula:</strong> Visit this iconic suspension bridge, offering breathtaking views of the river and surrounding hills.</li>
+            <li><strong>Spiritual Festivals:</strong> Witness vibrant festivals like the International Yoga Festival and Ganga Aarti, which celebrate the local culture.</li>
+            <li><strong>Nature Trails:</strong> Explore scenic hiking trails that lead to beautiful waterfalls and viewpoints in the nearby hills.</li>
+        </ul>
+        
+        <h3>Tips for Travelers:</h3>
+        <ul>
+            <li><strong>Best Time to Visit:</strong> September to November and March to May offer pleasant weather for outdoor activities.</li>
+            <li><strong>Transportation:</strong> Local taxis and auto-rickshaws are available for getting around the town.</li>
+            <li><strong>Dress Code:</strong> Comfortable clothing is recommended, especially for yoga classes, and modest attire for visiting temples.</li>
+        </ul>
+    </div>
+
+        </section>
+        <section class="destination">
+            <h2>10.Andaman and Nicobar Islands</h2>
+            <img src="andaman.jpg" alt="Andaman and Nicobar Islands">
+            <p>This group of islands is known for its pristine beaches, coral reefs, and lush green forests.</p>
+            <button class="read-more-btn" onclick="toggleAndamanMore()">Read More</button>
+    
+            <div id="andaman-more-info" style="display: none;">
+                <h3>Key Highlights:</h3>
+                <ul>
+                    <li><strong>Havelock Island:</strong> Famous for its stunning Radhanagar Beach, perfect for swimming, sunbathing, and relaxing.</li>
+                    <li><strong>Scuba Diving:</strong> Experience some of the best diving spots in India, with vibrant coral reefs and diverse marine species.</li>
+                    <li><strong>Cellular Jail:</strong> A historic site in Port Blair, it is a reminder of the struggle for independence and features a museum.</li>
+                    <li><strong>Ross Island:</strong> Explore the ruins of the former capital of the Andaman Islands, now a picturesque spot for sightseeing.</li>
+                    <li><strong>Nature Trails:</strong> Enjoy trekking through the lush rainforests and exploring the rich biodiversity of the islands.</li>
+                </ul>
+                
+                <h3>Tips for Travelers:</h3>
+                <ul>
+                    <li><strong>Best Time to Visit:</strong> October to May offers pleasant weather and is ideal for outdoor activities.</li>
+                    <li><strong>Transportation:</strong> Ferries connect the islands; local taxis and auto-rickshaws are available for getting around.</li>
+                    <li><strong>Dress Code:</strong> Light and comfortable clothing is recommended, along with swimwear for beach activities.</li>
+                </ul>
+            </div>
+        </section><br>
+
+    <section id="about">
+        <h2>About India</h2>
+        <p>India is a country of diverse cultures, languages, and landscapes. From the Himalayas in the north to the beaches of the south, India offers a variety of experiences for every traveler.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+          enter your Name
+         
+            <input type="text" placeholder="Your Name" required>
+            <span style="color:red">*</span> <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button></section>
+            <section id="logout">
+                <h2>Log Out</h2>
+                <p>You have successfully logged out. Thank you for visiting!</p>
+            </section>
+  </main>
+
+    <footer>
+        <p>&copy; 2024 Travel Destinations in India</p>
+    </footer>
+    <script>
+        function toggleReadMore() {
+            var moreInfo = document.getElementById("more-info");
+            var button = document.querySelector(".read-more-btn");
+            
+            if (moreInfo.style.display === "none") {
+                moreInfo.style.display = "block";
+                button.textContent = "Read Less";
+            } else {
+                moreInfo.style.display = "none";
+                button.textContent = "Read More";
+            }
+        }
+        </script>
+        <script>
+            function toggleTajMore() {
+                var moreInfo = document.getElementById("taj-more-info");
+                var button = document.querySelector(".read-more-btn");
+                
+                if (moreInfo.style.display === "none") {
+                    moreInfo.style.display = "block";
+                    button.textContent = "Read Less";
+                } else {
+                    moreInfo.style.display = "none";
+                    button.textContent = "Read More";
+                }
+            }
+            </script>
+            <script>
+                function toggleJaipurMore() {
+                    var moreInfo = document.getElementById("jaipur-more-info");
+                    var button = document.querySelector(".read-more-btn");
+                    
+                    if (moreInfo.style.display === "none") {
+                        moreInfo.style.display = "block";
+                        button.textContent = "Read Less";
+                    } else {
+                        moreInfo.style.display = "none";
+                        button.textContent = "Read More";
+                    }
+                }
+                </script>
+                <script>
+                    function toggleGoaMore() {
+                        var moreInfo = document.getElementById("goa-more-info");
+                        var button = document.querySelector(".read-more-btn");
+                        
+                        if (moreInfo.style.display === "none") {
+                            moreInfo.style.display = "block";
+                            button.textContent = "Read Less";
+                        } else {
+                            moreInfo.style.display = "none";
+                            button.textContent = "Read More";
+                        }
+                    }
+                    </script>
+                    <script>
+                        function toggleKeralaMore() {
+                            var moreInfo = document.getElementById("kerala-more-info");
+                            var button = document.querySelector(".read-more-btn");
+                            
+                            if (moreInfo.style.display === "none") {
+                                moreInfo.style.display = "block";
+                                button.textContent = "Read Less";
+                            } else {
+                                moreInfo.style.display = "none";
+                                button.textContent = "Read More";
+                            }
+                        }
+                        </script>
+                        <script>
+                            function toggleRishikeshMore() {
+                                var moreInfo = document.getElementById("rishikesh-more-info");
+                                var button = document.querySelector(".read-more-btn");
+                                
+                                if (moreInfo.style.display === "none") {
+                                    moreInfo.style.display = "block";
+                                    button.textContent = "Read Less";
+                                } else {
+                                    moreInfo.style.display = "none";
+                                    button.textContent = "Read More";
+                                }
+                            }
+                            </script>
+                            <script>
+                                function toggleVaranasiMore() {
+                                    var moreInfo = document.getElementById("varanasi-more-info");
+                                    var button = document.querySelector(".read-more-btn");
+                                    
+                                    if (moreInfo.style.display === "none") {
+                                        moreInfo.style.display = "block";
+                                        button.textContent = "Read Less";
+                                    } else {
+                                        moreInfo.style.display = "none";
+                                        button.textContent = "Read More";
+                                    }
+                                }
+                                </script>
+                                <script>
+                                    function toggleHampiMore() {
+                                        var moreInfo = document.getElementById("hampi-more-info");
+                                        var button = document.querySelector(".read-more-btn");
+                                        
+                                        if (moreInfo.style.display === "none") {
+                                            moreInfo.style.display = "block";
+                                            button.textContent = "Read Less";
+                                        } else {
+                                            moreInfo.style.display = "none";
+                                            button.textContent = "Read More";
+                                        }
+                                    }
+                                    </script>
+                                    <script>
+                                        function toggleAndamanMore() {
+                                            var moreInfo = document.getElementById("andaman-more-info");
+                                            var button = document.querySelector(".read-more-btn");
+                                            
+                                            if (moreInfo.style.display === "none") {
+                                                moreInfo.style.display = "block";
+                                                button.textContent = "Read Less";
+                                            } else {
+                                                moreInfo.style.display = "none";
+                                                button.textContent = "Read More";
+                                            }
+                                        }
+                                        </script>
+                                        <script>
+                                            function toggleUdaipurMore() {
+                                                var moreInfo = document.getElementById("udaipur-more-info");
+                                                var button = document.querySelector(".read-more-btn");
+                                                
+                                                if (moreInfo.style.display === "none") {
+                                                    moreInfo.style.display = "block";
+                                                    button.textContent = "Read Less";
+                                                } else {
+                                                    moreInfo.style.display = "none";
+                                                    button.textContent = "Read More";
+                                                }
+                                            }
+                                            </script>     
+</body>
+</html>
